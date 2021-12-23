@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(189, 189, 189);
+}
+
+.header {
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 10px 0px 10px 35px;
+    background-color: rgb(27, 45, 104);
+    font-size: 48px;
+}
+
+.divHeader {
+    border: 1px solid;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+}
+
+.colors {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.center {
+    text-align: center;
+    padding: 10px;
+}
+
+.whiteText {
+    color: white;
+}
+
+.gray {
+    background-color: rgb(189, 189, 189);
+}
+
+.blue {
+    background-color: rgb(27, 45, 104);
+}
+
+.darkGray {
+    background-color: rgb(44, 44, 44);
+}
+
+.forestGreen {
+    background-color: rgb(26, 65, 21);
+}
+
+.fonts {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.background {
+    background-color: rgb(189, 189, 189);
+    width: 100%;
+}
+
+div h1 {
+    font-family: 'Roboto';
+    font-size: 36px;
+    padding-left: 10px;
+}
+
+.background div {
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+}
+
+.fonts .background div p {
+    font-size: 24px;
+}
+
+.helv {
+    font-family: Helvetica;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.openSans {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.elementStyles {
+    margin-top: 10px;
+}
+
+.h1 h1{
+    padding: 0px;
+}
+
+.h1 {
+    font-family: 'Roboto';
+}
+
+.h2 {
+    font-family: 'Open Sans Condensed';
+}
+
+.p {
+    font-family: Helvetica;
+}
