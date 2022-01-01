@@ -7,4 +7,4 @@ HTML page giving a general style guide
     - HTML
     - CSS
 
-### Live deployment coming soon.
+### View live deployment here: https://isaiahpetrichor.github.io/design-system/
