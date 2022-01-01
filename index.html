@@ -1,78 +1,145 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Website Style Guide</title>
-        <link rel='stylesheet' type='text/css' href='styles.css'>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <h1 class='whiteText header'>MY WEBSITE STYLE GUIDE</h1>
-        <div class='colors divHeader'>
-            <h1 class='whiteText'>Colors</h1>
-            <div class='gray center'>
-                <p>Light Gray</p>
-                <p>RGB: 189, 189, 189</p>
-            </div>
-            <div class='darkGray center whiteText'>
-                <p>Dark Gray</p>
-                <p>RGB: 44, 44, 44</p>
-            </div>
-            <div class='blue center whiteText'>
-                <p>Faded Blue</p>
-                <p>RGB: 27, 45, 104</p>
-            </div>
-            <div class='forestGreen center whiteText'>
-                <p>Forest Green</p>
-                <p>RGB: 26, 65, 21</p>
-            </div>
-        </div>
-        <div class='fonts divHeader'>
-            <h1 class='whiteText'><strong>Fonts</strong></h1>
-            <div class='background'>
-                <div class='helv'>
-                    <h2><u>Helvetica</u></h2>
-                    <p>This is a sentence about turtles.</p>
-                    <p><strong>This is a sentence about turtles.</strong></p>
-                    <p><em>This is a sentence about turtles.</em></p>
-                </div>
-                <div class='roboto'>
-                    <h2><u>Roboto</u></h2>
-                    <p>This is a sentence about turtles.</p>
-                    <p><strong>This is a sentence about turtles.</strong></p>
-                    <p><em>This is a sentence about turtles.</em></p>
-                </div>
-                <div class='openSans'>
-                    <h2><u>Open Sans Condensed</u></h2>
-                    <p>This is a sentence about turtles.</p>
-                    <p><strong>This is a sentence about turtles.</strong></p>
-                    <p><em>This is a sentence about turtles.</em></p>
-                </div>
-            </div>
-        </div>
-        <div class='elementStyles divHeader'>
-            <h1 class='whiteText'>Element Styles</h1>
-            <div class='background'>
-                <div class='h1'>
-                    <h1>H1: Main Headings</h1>
-                    <p>Font-family: Roboto</p>
-                    <p>Font-size: 36px</p>
-                    <p>Font-weight: 400</p>
-                </div>
-                <div class='h2'>
-                    <h2>H2: Subheading</h2>
-                    <p>Font-family: Open Sans Condensed</p>
-                    <p>Font-size: 24px</p>
-                    <p>Font-weight: 300</p>
-                </div>
-                <div class='p'>
-                    <p>P: Text and Subtext</p>
-                    <p>Font-family: Helvetica</p>
-                    <p>Font-size: 16px</p>
-                    <p>Font-weight: 400</p>
-                </div>
-            </div>
-        </div>
-    </body>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Petrichor general example style guide" />
+		<title>Website Style Guide</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<h1 class="header">WEBSITE STYLE GUIDE</h1>
+		<section class="colors">
+			<h2 class="sectionHeader">Colors</h2>
+			<div class="gray center">
+				<p>Light Gray</p>
+				<p>Hex: #b4b4bf</p>
+			</div>
+			<div class="darkGray center whiteText">
+				<p>Dark Gray</p>
+				<p>Hex: #0e161caa</p>
+			</div>
+			<div class="blue center whiteText">
+				<p>Faded Blue</p>
+				<p>Hex: #355168cc</p>
+			</div>
+			<div class="lightBlue center">
+				<p>Light Blue</p>
+				<p>Hex: #6295bfcc</p>
+			</div>
+		</section>
+		<section>
+			<h2 class="sectionHeader">Fonts</h2>
+			<div class="flex">
+				<div class="roboto">
+					<h3>Roboto</h3>
+					<ul>
+						<li><p>This is a sentence about turtles.</p></li>
+						<li>
+							<p><strong>This is a sentence about turtles.</strong></p>
+						</li>
+						<li>
+							<p><em>This is a sentence about turtles.</em></p>
+						</li>
+					</ul>
+				</div>
+				<div class="openSans">
+					<h3>Open Sans Condensed</h3>
+					<ul>
+						<li><p>This is a sentence about turtles.</p></li>
+						<li>
+							<p><strong>This is a sentence about turtles.</strong></p>
+						</li>
+						<li>
+							<p><em>This is a sentence about turtles.</em></p>
+						</li>
+					</ul>
+				</div>
+				<div class="helv">
+					<h3>Helvetica</h3>
+					<ul>
+						<li><p>This is a sentence about turtles.</p></li>
+						<li>
+							<p><strong>This is a sentence about turtles.</strong></p>
+						</li>
+						<li>
+							<p><em>This is a sentence about turtles.</em></p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section>
+			<h2 class="sectionHeader">Element Styles</h2>
+			<div class="flex">
+				<div>
+					<h1>H1 - Main Headings</h1>
+					<ul>
+						<li>
+							<p>Font Family: Roboto</p>
+						</li>
+						<li>
+							<p>Font Size: 36px</p>
+						</li>
+						<li>
+							<p>Font Weight: 400</p>
+						</li>
+						<li>
+							<p>Background Color: Faded Blue</p>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h2>H2 - Section Headings</h2>
+					<ul>
+						<li>
+							<p>Font Family: Open Sans Condensed</p>
+						</li>
+						<li>
+							<p>Font Size: 30px</p>
+						</li>
+						<li>
+							<p>Font Weight: 600</p>
+						</li>
+						<li>
+							<p>Background Color: Light Blue</p>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<h3>H3 - Sub Headings</h3>
+					<ul>
+						<li>
+							<p>Font Family: Open Sans Condensed</p>
+						</li>
+						<li>
+							<p>Font Size: 24px</p>
+						</li>
+						<li>
+							<p>Font Weight: 600</p>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<p>P - Text and Subtext</p>
+					<ul>
+						<li>
+							<p>Font Family: Helvetica</p>
+						</li>
+						<li>
+							<p>Font Size: 18px</p>
+						</li>
+						<li>
+							<p>Font Weight: 400</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</body>
 </html>
